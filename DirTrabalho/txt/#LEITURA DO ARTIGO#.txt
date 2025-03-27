@@ -1,0 +1,27 @@
+Abdução é um conceito oriundo da lógica e da inteligência artificial que descreve um tipo de raciocínio que envolve inferência de hipóteses explicativas para um conjunto de observações. No contexto do aprendizado de máquina, a abdução é utilizada para buscar a melhor explicação ou hipótese que justifique um determinado conjunto de dados ou observações.
+
+
+> resumo
+explicabilidade em modelos de inteligência artificial, com foco em redes neurais profundas.
+
+explicações baseadas em abdução para aprendizado de máquina e desenvolvimento de um método para calcular explicações locais para modelos de redes neurais em processamento de linguagem natural (PNL).
+
+> 2 algoritmos de solução: o primeiro baseado em chutes e o segundo observando os subconjuntos universais maximos
+
+> acelerar o encontro da resposta de instancia dificeis por
+> metodo: detectar padrões a partir da aplicações de introduçao e exclusao de restriçoes 
+> testaram o framework nas 3 mais amplas tarefas de analise sentimental e texto ate 100 palavras de sst, twitter e imdb (base de dados) para demonstrar a efetividade das abduçoes obtidas a partir do metodo implementado
+
+
+
+O estudo se baseia no conceito de abdução, um tipo de raciocínio lógico que busca encontrar explicações plausíveis para observações. os autores desenvolvem um metodo para gerar explicações locais para modelos de redes neurais utilizados em processamento de linguagem natural (npl). Esse método visa fornecer justificativas para as previsões desses modelos, concentrando-se em identificar um subconjunto de palavras em um texto que satisfaça dois critérios principais.
+
+A primeira é a "optimalidade", que implica selecionar um subconjunto de palavras que ofereça a explicação mais eficiente, com base em uma função de custo definida pelo usuário, como o comprimento da explicação. A segunda é a "robustez", garantindo que as explicações sejam resistentes a perturbações limitadas, ou seja, pequenas mudanças nas palavras deixadas de fora do subconjunto selecionado não afetem as previsões do modelo.
+
+Para alcançar esse objetivo, dois algoritmos são propostos: um baseado em "implicit hitting sets" e outro em "maximum universal subsets". Esses algoritmos são acompanhados por melhorias para acelerar a convergência, especialmente em casos mais desafiadores.
+
+Além disso, o método é versátil, permitindo a configuração com diferentes conjuntos de perturbações no espaço de incorporação das palavras, sendo capaz de detectar viés nas previsões ao aplicar restrições de inclusão/exclusão em termos enviesados. Também é capaz de aprimorar frameworks de explicação existentes em NLP, como o framework Anchors.
+
+A avaliação do método é realizada em três tarefas comuns de análise de sentimentos, utilizando textos de até 100 palavras de conjuntos de dados amplamente utilizados, demonstrando a eficácia das explicações geradas e sua capacidade de proporcionar justificativas relevantes para as previsões dos modelos em NLP.
+
+
